@@ -1,0 +1,84 @@
+.login-form-wrapper{
+    width: 30%;
+    min-height: 300px;
+
+    border: 1px solid #163E6C;
+    border-radius: 15px;
+}
+
+.login-form-container{
+    width: 100%;
+    min-height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form > fieldset{
+    border: none;
+}
+
+.login-form{
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form > fieldset > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form > fieldset > div> input{
+    width: 50%;
+    height: 35px;
+    font-size: 2em;
+    background-color: #EBE6D6;
+}
+
+.login-form > fieldset > div> label{
+    font-size: 2em;
+    width: 30%;
+
+    text-align: right;
+}
+
+.login-button-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button-container > button{
+    font-size: 2em;
+    border-radius: 5%;
+    background-color: #EBE6D6;
+}
+
+.login-button-container > button:hover{
+    background-color: white;
+}
+.login-button-container > button:disabled{
+    background-color: #EBE6D6;
+}
+
+.auth-error-text-container{
+    width: 100%;
+}
+
+.auth-error-text-container > p{
+    text-align: center;
+    color: #D20A11;
+
+    font-size: 1.5em;
+}

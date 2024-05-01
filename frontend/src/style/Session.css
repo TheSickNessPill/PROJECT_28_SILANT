@@ -1,0 +1,7 @@
+.top-profile-session{
+    min-height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

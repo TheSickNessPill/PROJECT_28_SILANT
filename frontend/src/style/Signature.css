@@ -1,0 +1,9 @@
+.signature-container{
+    width: 30%;
+}
+
+.signature-container > p{
+    font-size: 1.5em;
+    text-align: center;
+}
+

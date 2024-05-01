@@ -1,0 +1,28 @@
+SILANT APP
+
+Не получилось:
+	1) Реализовать переход по клику на строку ведущей
+		на подробное описание записи из-за нехватки времени
+	2) Реализовать функционал изменения данных в зависимости от роли,
+		т.к. даже после многократного перечитывания ТЗ так и не было понятно,
+		какие данные какая роль может редактировать.
+
+Ниже указаны пункты развёртывания приложения
+
+1) cd to root dir
+
+2) Backend 
+	1) (in root dir) -> python -m venv [yourvenvname]
+	2) activate your venv
+	3) pip install -U -r requirements.txt
+	4) cd backend/silant/
+	5) python manage.py runserver 8000
+
+3)Front
+	1) (in root dir) -> cd RecipesAppFront
+	2) npm install
+	3) npm start
+
+====================
+Учётные данные указаны либо в SqLite файле,
+либо на backend в settings.py

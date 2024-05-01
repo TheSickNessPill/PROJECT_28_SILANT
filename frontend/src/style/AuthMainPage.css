@@ -1,0 +1,42 @@
+.auth-main-page {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.client-name-container {
+    width: 100%;
+}
+
+.client-name-container>h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.tables-description {
+    width: 100%;
+}
+
+.tables-description>p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.tables-container {
+    width: 100%;
+}
+
+.tables-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+
+.tables-nav>button {
+    width: 15%;
+    font-size: 2em;
+    background-color: #EBE6D6;
+    border-radius: 10px;
+}

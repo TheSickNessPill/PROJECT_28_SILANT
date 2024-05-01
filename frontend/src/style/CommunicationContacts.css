@@ -1,0 +1,11 @@
+.communication-contacts{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.communication-contacts > p{
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+.profile-top-container{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.profile-top-container > p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    text-align: right;
+}
+
+.profile-top-container > p:nth-child(2){
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.profile-top-container > a{
+    width: 100%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #D20A11;
+    text-align: right;
+}
+
+.profile-top-container > a:hover{
+    text-decoration: underline;
+}

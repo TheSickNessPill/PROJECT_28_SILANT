@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "AstraSansBoldItalic";
+    src: url("./fonts/ptAstraSans/PT-Astra-Sans_Bold-Italic.ttf");
+}
+@font-face{
+    font-family: "AstraSansBold";
+    src: url("./fonts/ptAstraSans/PT-Astra-Sans_Bold.ttf");
+}
+@font-face{
+    font-family: "AstraSansItalic";
+    src: url("./fonts/ptAstraSans/PT-Astra-Sans_Italic.ttf");
+}
+@font-face{
+    font-family: "AstraSansRegular";
+    src: url("./fonts/ptAstraSans/PT-Astra-Sans_Regular.ttf");
+}
+
+*{
+    font-family: "AstraSansRegular";
+}

@@ -1,0 +1,12 @@
+.header-title{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-title > p{
+    text-align: center;
+    font-size: 3em;
+
+    margin: 0;
+}

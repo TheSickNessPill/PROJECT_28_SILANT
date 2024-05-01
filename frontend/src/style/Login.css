@@ -1,0 +1,21 @@
+.login-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container > a{
+    font-size: 2.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: #163E6C;
+
+}
+
+.login-container > a:hover{
+    color: #D20A11;
+    text-decoration: underline;
+}

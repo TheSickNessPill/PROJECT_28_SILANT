@@ -1,0 +1,15 @@
+header{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header > div:nth-child(2){
+    width: 70%;
+}
