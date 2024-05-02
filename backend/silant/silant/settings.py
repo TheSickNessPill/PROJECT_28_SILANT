@@ -30,19 +30,21 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# ------- ADMIN PANEL BACKEND -------
 # silantsuperadmin
-#!Q2w3e4r5t
+# !Q2w3e4r5t
+# ------- ADMIN PANEL BACKEND -------
 
+# ----- FRONTEND -----------------
 # client1
 # silantc1!Q2w3e
 
 # userSC1
 # silantsc1!Q2w3e
 
-
 # userM1
 # silantm1!Q2w3e
-
+# ----- FRONTEND -----------------
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

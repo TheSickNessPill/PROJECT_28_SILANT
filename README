@@ -11,18 +11,21 @@ SILANT APP
 
 1) cd to root dir
 
-2) Backend 
+2) Backend -> http:/localhost:8000
 	1) (in root dir) -> python -m venv [yourvenvname]
 	2) activate your venv
 	3) pip install -U -r requirements.txt
 	4) cd backend/silant/
 	5) python manage.py runserver 8000
 
-3)Front
+3)Front -> http:/localhost:8001
 	1) (in root dir) -> cd RecipesAppFront
 	2) npm install
 	3) npm start
 
+
 ====================
 Учётные данные указаны либо в SqLite файле,
 либо на backend в settings.py
+
+Чтобы зайти на фронт, перейдите на http:/localhost:8001/

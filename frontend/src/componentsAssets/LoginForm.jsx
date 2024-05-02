@@ -22,8 +22,8 @@ export default function LoginForm() {
     });
 
     useEffect(
-        ()=>{
-            if (window.localStorage.getItem("token")){
+        () => {
+            if (window.localStorage.getItem("token")) {
                 navigate("/");
             }
         },
@@ -31,11 +31,11 @@ export default function LoginForm() {
     );
 
     useEffect(
-        ()=>{
-            if (silantLoginResponse.isFetched){
+        () => {
+            if (silantLoginResponse.isFetched) {
 
                 setErrorText("");
-                if (silantLoginResponse.data.status === "ok"){
+                if (silantLoginResponse.data.status === "ok") {
                     const localStorage = window.localStorage;
                     console.log(silantLoginResponse.data.access)
                     localStorage.setItem("companyName", silantLoginResponse.data.companyName || "");
@@ -46,7 +46,7 @@ export default function LoginForm() {
                     setAuthButtonDisabledFlag(true);
                     navigate("/");
                 }
-                else if (silantLoginResponse.data.status === "error"){
+                else if (silantLoginResponse.data.status === "error") {
                     console.log(silantLoginResponse.data.text)
                     setErrorText(silantLoginResponse.data.text);
                 }
@@ -85,7 +85,7 @@ export default function LoginForm() {
                         </div>
                         <div>
                             <label htmlFor="password"> Пароль: </label>
-                            <input type="password" name="password" onChange={(e) => { setPassword(e.target.value.trim()); }} />
+                            <input type="password" name="password" onChange={(e) => { setPassword(btoa(e.target.value.trim())); }} />
                         </div>
                     </fieldset>
                 </form>
